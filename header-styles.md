@@ -35,9 +35,9 @@ Para estilizar o header e a navegação iremos definir as seguintes propriedades
 
 **`header`**
 
-- a tag `header` devera ter a largura ocupando toda a tela. para isso usamos a propriedade `width` definida para `100%`com um espaçamento `padding`de `18px` e o background continua `#333` e a cor do texto definida para branco usando o `color` definido como `#fff`
+- a tag `nav` devera organizar seu conteúdo na horizontal e para isso usaremos a propriedade `display` definida como `flex`. Para colocar o titulo em uma ponta e os links na outra, vamos definir a propriedade `justify-content` para `space-between` e o `align-items` definida como `center` e vai centralizar o conteúdo verticalmente ao centro com um espaçamento `padding`de `18px` e o background continua `#333` e a cor do texto definida para branco usando o `color` definido como `#fff`
 
-- a tag `nav` devera organizar seu conteúdo na horizontal e para isso usaremos a propriedade `display` definida como `flex`. Para colocar o titulo em uma ponta e os links na outra, vamos definir a propriedade `justify-content` para `space-between` e o `align-items` definida como `center` e vai centralizar o conteúdo verticalmente ao centro
+- a tag `nav` devera organizar seu conteúdo na horizontal e para isso usaremos a propriedade `display` definida como `flex`.
 
 - para a tag `ul` também definiremos o `display` como `flex` o `list-style-type` definido como `none` para remover os estilos de lista.
 
