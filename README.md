@@ -15,4 +15,5 @@ Salve cada exercicio com o nome recomendado na descriçao de cada um.
 02 - [Tags de container](block-tags.md)
   - [exercicio2](exercicios/block-tags.md)
  
-02 - [Resetando os estilos padrão dos navegadores](css-reset.md)
+03 - [Resetando os estilos padrão dos navegadores](css-reset.md)
+
