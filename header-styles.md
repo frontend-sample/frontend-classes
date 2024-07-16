@@ -2,7 +2,7 @@
 
 Vamos criar os estilos CSS conforme solicitado e explicar cada parte do código de maneira simples com comentários.
 
-O resultado obtido deverá ser parecido com a imagem abaixo
+O resultado obtido deverá ser parecido com a imagem abaixo. Você pode usar os mesmos arquivos da aula passada ou copiá-los para uma nova pasta mas o código base desse exercício é o que foi feito no exercício anterior.
 
 ![resultado](assets/resultado-header.png)
 
