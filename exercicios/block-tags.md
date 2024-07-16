@@ -48,7 +48,6 @@ Ex:
 - **`aside`**: Define um fundo cinza claro (`#f4f4f4`), adiciona preenchimento de 10 pixels e margens de 20 pixels acima e abaixo.
 
 ### Corpo do Documento
----
 
 #### `<body>`
 A seção `<body>` contém todo o conteúdo visível da página.
