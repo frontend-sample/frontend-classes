@@ -12,8 +12,8 @@ Seu código provavelmente se parecerá com o código abaixo.
 
 ```html
 <header>
+  <h1>titulo da pagina</h1>
   <nav>
-    <h1>titulo da pagina</h1>
     <ul>
       <li><a href="#">link</a></li>
       <li><a href="#">link</a></li>
@@ -70,7 +70,7 @@ Para estilizar o header e a navegação iremos definir as seguintes propriedades
 
 - **`li`**
 
-  - `margin-left: 20px;`: Adiciona um espaço de 20 pixels à esquerda de cada item da lista, exceto o primeiro item.
+  - `margin-left: 24px;`: Adiciona um espaço de 20 pixels à esquerda de cada item da lista, exceto o primeiro item.
 
 - **`a`**
   - `color: white;`: Define a cor do texto dos links como branco.
