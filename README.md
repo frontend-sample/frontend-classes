@@ -12,5 +12,5 @@ Salve cada exercicio com o nome recomendado na descriçao de cada um.
 01 - [introduction](introduction.md)
   - [exercício 1](exercicios/intro.md)
 
-02 - Tags de container (em breve)
-  - [exercicio2] (em breve)
+02 - [Tags de container](block-tags.md)
+  - [exercicio2](exercicios/block-tags.md)
