@@ -3,7 +3,7 @@
 ### Exercício de bloco de tags
 
 Crie um novo arquivo no seu computador usando um editor de texto como o Notepad, Notepad++ ou Visual Studio Code chamado `block-tags.html`
-Nesse arquivo, crie a estrutura de código abaixo com as tags de bloco que estudamos anteriormente.
+Nesse arquivo, crie a estrutura de código abaixo com as tags de bloco que estudamos anteriormente, comite e envie ao github no mesmo repositório criado anteriormente.
 
 ---
 
