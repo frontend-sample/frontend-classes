@@ -32,9 +32,13 @@
      Contém o conteúdo visível da página.
  - `<h1>Bem-vindo à minha página HTML!</h1>`
      Cabeçalho principal.
- - `<script>
-        // Código JavaScript para exibir uma mensagem de alerta
-        alert("Olá jovem Padawan!");
-    </script>`
+ - `script`
      Contém um código JavaScript que exibe um alerta com a mensagem `"Olá jovem Padawan!"`.
-Agora você pode copiar esse código para  um arquivo HTML e abri-lo no seu navegador para ver como ele funciona!
+     Agora você pode copiar esse código para  um arquivo HTML e abri-lo no seu navegador para ver como ele funciona!
+     ```html
+     <script>
+           // Código JavaScript para exibir uma mensagem de alerta
+           alert("Olá jovem Padawan!");
+     </script>``` 
+
+
