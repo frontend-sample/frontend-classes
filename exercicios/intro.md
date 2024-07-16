@@ -1,6 +1,7 @@
 # Explicação do Script
 
-
+Crie um arquivo com o nome `introduction.html` no repositorio que você criou anteriormente. 
+Siga as instruções abaixo para criar o `HTML` neessário para o exercício, comite e envie ao github.
 
 
 `<!DOCTYPE html>`
