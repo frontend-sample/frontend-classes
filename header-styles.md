@@ -32,6 +32,7 @@ Agora, vamos adicionar os estilos CSS para atingir o layout desejado.
 
 Para estilizar o header e a navegação iremos definir as seguintes propriedades no css da página.
 
+
 **`header`**
 
 - a tag `header` devera ter a largura ocupando toda a tela. para isso usamos a propriedade `width` definida para `100%`com um espaçamento `padding`de `18px` e o background continua `#333` e a cor do texto definida para branco usando o `color` definido como `#fff`
