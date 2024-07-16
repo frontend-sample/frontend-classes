@@ -28,9 +28,10 @@ Seu código provavelmente se parecerá com o código abaixo.
 
 Agora, vamos adicionar os estilos CSS para atingir o layout desejado.
 
-`<header`
+`<header>`
 
-Para estilizar o header iremos definir as seguintes propriedades no css da página.
+Para estilizar o header e a navegação iremos definir as seguintes propriedades no css da página.
+
 
 **`header`**
 
