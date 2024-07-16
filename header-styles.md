@@ -12,8 +12,8 @@ Seu código provavelmente se parecerá com o código abaixo.
 
 ```html
 <header>
+  <h1>titulo da pagina</h1>
   <nav>
-    <h1>titulo da pagina</h1>
     <ul>
       <li><a href="#">link</a></li>
       <li><a href="#">link</a></li>
