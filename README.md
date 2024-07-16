@@ -1,9 +1,11 @@
 # Frontend basic trainment
 
 Crie no seu github um repositório, recomendamos o nome `frontend-basic-trainning`.
-Salve cada exercicio com o nome recomendado na descriçao de cada um.
+Salve cada exercício com o nome recomendado na descriçao de cada um.
 
-> nao esqueça de sempre dar um push no seu código
+> [!CAUTION]
+> Não se esqueça de sempre enviar seu código ao github.
+> em breve falaremos sobre o **[Git Flow](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04)** que uma abordagem de como usar e padronizar branches manter um melhor controle e entendimento do seu fluxo de mudanças
 
 ## Lista de aulas e exercícios
 
