@@ -1,5 +1,12 @@
 # Frontend basic trainment
 
+
+Crie no seu github um repositório, recomendamos o nome `frontend-basic-trainning`.
+Salve cada exercicio com o nome recomendado na descriçao de cada um. 
+
+> nao esqueça de sempre dar um push no seu código
+
+
 01 - [introduction](introduction.md)
   - [exercício 1](exercicios/intro.md)
 
