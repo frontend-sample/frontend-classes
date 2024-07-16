@@ -42,7 +42,7 @@ Ex:
 ```
 
 - **`body`**: Define a fonte padrão `font-family` como `"sans-serif"`.
-- **`header`, `footer`**: Define um fundo `background-color` cinza escuro (`#333`), texto branco (#fff), preenchimento `padding` de 10 pixels e centraliza o texto `text-center`.
+- **`header`, `footer`**: Define um fundo `background-color` cinza escuro (`#333`), texto branco `color` (`#fff`), preenchimento `padding` de 10 pixels e centraliza o texto `text-align`.
 - **`main`**: Adiciona uma margem `margin` de 20 pixels ao redor do conteúdo principal.
 - **`section`**: Adiciona uma margem inferior de 20 pixels entre as seções.
 - **`aside`**: Define um fundo cinza claro (`#f4f4f4`), adiciona preenchimento de 10 pixels e margens de 20 pixels acima e abaixo.
