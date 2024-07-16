@@ -5,6 +5,11 @@ Todo navegador usa um estilo padrão. Utilizamos o codigo abaixo para resetar es
 Para isso crie um arquivo `css-reset.css` com o conte[udi abaixo e adicione ele ao seu arquivo html.
 
 
+> [!CAUTION]
+> Leitura recomendada
+> [Reset CSS: O que é, exemplos, como Criar e usar](https://www.alura.com.br/artigos/o-que-e-reset-css?utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=20987928442&hsa_grp=157916200306&hsa_ad=689395782879&hsa_src=g&hsa_tgt=dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANOITzXDfAnXJhLZEHs9tU-qGtQT5UumujYaMaOxVa0RF_3C2RgyFuRoC-o8QAvD_BwE)
+
+
 ```css
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
