@@ -55,7 +55,7 @@ A seção `<body>` contém todo o conteúdo visível da página.
 - **`<header>`**: Contém o cabeçalho da página com um título (`<h1>`) e uma navegação (`<nav>`) com links.
   - **`<h1>`**: O título principal da página.
   - **`<nav>`**: A navegação principal com uma lista não ordenada (`<ul>`) de links (`<li>`).
-      - dentro de `<nav>` crie uma tag `ol` com dois item `li` dentro.
+      - dentro de `<nav>` crie uma tag `ul` com dois item `li` dentro.
       - dentro de cada `li` coloque uma tag `a` com o `href` para qualquer site e dentro da tag o nome do site
       - adicione também à tag a um atrtibuto `target` com o valor `_blank`, isso fará com que o link abra em uma nova aba. 
 
