@@ -1,24 +1,19 @@
-# Frontend basic trainment
 
-Crie no seu github um repositório, recomendamos o nome `frontend-basic-trainning`.
-Salve cada exercício com o nome recomendado na descriçao de cada um.
+# Treinamento Básico de Frontend
 
-> [!CAUTION]
-> Não se esqueça de sempre enviar seu código ao github.
-> em breve falaremos sobre o **[Git Flow](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04)** que uma abordagem de como usar e padronizar branches manter um melhor controle e entendimento do seu fluxo de mudanças
+Descubra o fascinante universo do desenvolvimento web com nosso curso introdutório de Front-End. 
 
-## Lista de aulas e exercícios
+Projetado para iniciantes, você aprenderá HTML, CSS e JavaScript, construindo uma base sólida para criar sites modernos e interativos. 
 
----
+Inicie sua jornada tecnológica e transforme suas ideias em realidade digital.
 
-01 - [introduction](introduction.md)
 
-- [exercício 1](exercicios/intro.md)
+[Encontre as aulas aqui](https://frontend-sample.github.io/frontend-classes/)
 
-02 - [Tags de container](block-tags.md)
 
-- [exercicio2](exercicios/block-tags.md)
+## Entre em contato
 
-03 - [Resetando os estilos padrão dos navegadores](css-reset.md)
-
-04 - [Estilizando o HEADER](header-styles.md)
+[<img src="assets/img/linkedin.png" alt="linkedin logo" style="height:32px;"/>
+](https://linkedin.com/in/vagnerleitte)
+[<img src="assets/img/github.png" alt="github" style="height:32px; border-radius: 4px; overflow: hidden"/>
+](https://github.com/vagnerleitte)

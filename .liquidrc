@@ -1,0 +1,24 @@
+{
+  "engine": "shopify",
+
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": false
+  },
+
+  "liquid.config.baseDir": ".",
+  "liquid.config.method": "liquidrc",
+
+  "liquid.completion.tags": true,
+  "liquid.completion.objects": true,
+  "liquid.completion.filters": true,
+  "liquid.completion.operators": true,
+  "liquid.completion.schema": true,
+
+  "liquid.validate.schema": true,
+
+  "liquid.hover.tags": true,
+  "liquid.hover.filters": true,
+  "liquid.hover.objects": true,
+  "liquid.hover.schema": true
+}
