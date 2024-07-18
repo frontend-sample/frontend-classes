@@ -5,7 +5,7 @@ author: vagner
 date: 2019-08-08 19:54:00 +0800
 categories: [css, html]
 tags: [css]
-priority: 5
+priority: 7
 ---
 
 ## Hero section
