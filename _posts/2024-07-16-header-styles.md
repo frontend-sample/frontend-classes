@@ -5,7 +5,7 @@ author: vagner
 date: 2019-08-08 11:33:00 +0800
 categories: [CSS, estilos]
 tags: [html]
-priority: 4
+priority: 6
 ---
 
 # Afinal, o que é a Header Navigation?

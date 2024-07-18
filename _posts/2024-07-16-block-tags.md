@@ -6,7 +6,7 @@ author: vagner
 date: 2019-08-08 11:33:00 +0800
 categories: [Programação, Introdução, Frontend, HTML, TAGS]
 tags: [html]
-priority: 6
+priority: 8
 ---
 
 
