@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Criando uma About Section.
+title: Criando uma Seção Sobre Nós.
 author: vagner
 date: 2019-08-08 19:54:00 +0800
 categories: [css, html]
@@ -10,7 +10,7 @@ priority: 8
 
 ## About section
 
-Uma "about section" (seção sobre, em português) é um termo usado no design de websites para descrever uma área onde é contato a história ou o propósito do site e/ou serviço oferecido.
+Uma "about section" (seção sobre, em português) é um termo usado no design de websites para descrever uma área onde é contado a história ou o propósito do site e/ou serviço oferecido.
 
 
 ### Exemplos
@@ -42,7 +42,7 @@ Faça o download da imagem a ser usada <a href="{{ site.baseurl }}/assets/img/ab
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Section</title>
+    <title>Sobre Nós</title>
 </head>
 <body>
     <section id="about" class="about-container">
@@ -69,8 +69,8 @@ Faça o download da imagem a ser usada <a href="{{ site.baseurl }}/assets/img/ab
 
 **Passos**
 
-- remova a margem, espacamento das tags `html`  e `body` definindo o `padding` e a `margin` para `0`, configure o `height` para `100%` e a família da fonte para `Arial, sans-serif` 
-- crie una regra definir os estilos da section `#about` com o `display` definido como `flex`, alinhe os elemenos ao centro verticalmente usando o `align-items` com o valor center e horizontalmente use o `justify-content` com `space-between` um espaçamento de `48px`e o `background-color` com o valor `#f4e9ff`
+- remova a margem, espacamento das tags `html`  e `body` definindo o `padding` e a `margin` para `0`, configure o `height` para `100%` e a família da fonte para `Arial, sans-serif` e com o `background-color` com valor `#231942`
+- crie una regra definir os estilos da section `#about` com o `display` definido como `flex`, alinhe os elemenos ao centro verticalmente usando o `align-items` com o valor center e horizontalmente use o `justify-content` com `space-between` um espaçamento de `48px`e o `background-color` com o valor `#f4e9ff` e a cor da fonte `color` com valor `#5e548e`
 - para a div `tex-content` defina o seu tamanho `width` para `50%` 
 - para `.image-content` defina seu tamanho `width` em `50%` e o `text-align` como `right`
 - e para a tag img, o `witdh` em `100%` e o `height` para `auto`

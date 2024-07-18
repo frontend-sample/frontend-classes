@@ -28,5 +28,10 @@
   // Stylint extension settings
   "stylelint.snippet": ["css", "less", "postcss", "scss"],
   "stylelint.validate": ["css", "less", "postcss", "scss"],
-  "emmet.includeLanguages": { "liquid": "html" }
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

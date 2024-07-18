@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Criando uma Hero Section.
+title: Criando uma seção Hero.
 author: vagner
 date: 2019-08-08 19:54:00 +0800
 categories: [css, html]
@@ -70,14 +70,14 @@ um novo arquivo `hero.html` e criar a estrutura básica do arquivo.
 ```
 
 **Passos**
-
+- remova a margem, espacamento das tags `html`  e `body` definindo o `padding` e a `margin` para `0`, configure o `height` para `100%` e a família da fonte para `Arial, sans-serif` e o `background-color` para `#231942` 
 - Para a hero section vamos precisar de um container `div` que vai ter apenas heading de nível 1 `h1` com o conteúdo, "Bem-vindo ao Meu Site", um parágrafo `p` com o seguinte texto. "Descubra nossos produtos e serviços incríveis." e um link `a` apontando para `#saiba-mais` e o seguinte texto "Saiba Mais". 
 - Para a `div#hero` defina o estilo da hero section com uma imagem de fundo, faça o download da imagem a ser usada <a href="{{ site.baseurl }}/assets/img/contact.jpg" target="_blank">aqui</a>, altura total da viewport (100vh), cor do texto branco e centralização do conteúdo usando Flexbox.
 - O título `<h1>` e o parágrafo `<p>` são estilizados para serem grandes e chamativos e com cor branca.
 - a família de fonte do site deverá ser Arial, sans-serif;
-- o botão deverá ter cor de fundo `#007BFF` e cor de texto branco. quando o mouse estiver sobre o botão o mesmo deverá mudar sua cor de fundo para `#0056b3`
+- o botão deverá ter cor de fundo `#9f86c0` e cor de texto branco. quando o mouse estiver sobre o botão o mesmo deverá mudar sua cor de fundo para `#5e548e`
 
 > O texto da hero section contém um elemento que será explicado em outro momento, entretanto, para alcançar o mesmo resultado adicione essa propriedade as tags `h1` e `p`
-> `text-shadow: 0px 1px 5px rgba(0, 0, 0, 1);`
+> `text-shadow: 0px 3px 5px rgba(94, 84, 142, 0.95);`
 > Essa propriedade adicionará um efeito de sombra ao texto das tags h1 e p.
 
