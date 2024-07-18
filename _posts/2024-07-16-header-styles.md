@@ -1,99 +1,109 @@
 ---
 layout: post
-title: Estilizando a navegaçao superior
+title: Estilizando a navegação superior
 author: vagner
 date: 2019-08-08 11:33:00 +0800
 categories: [CSS, estilos]
 tags: [html]
+priority: 4
 ---
 
+# Afinal, o que é a Header Navigation?
 
-### Tags de Bloco em HTML
+A header navigation (ou navegação no cabeçalho) é uma seção na parte superior de um site que geralmente contém links para as principais páginas ou seções do site. Normalmente, inclui elementos como:
+
+- Logotipo: Um link para a página inicial.
+- Menu de Navegação: Links para as principais seções do site, como "Home", "Sobre", "Serviços", "Contato", etc.
+- Botões de Ação: Chamadas para ação como "Login", "Inscreva-se", "Compre Agora", etc.********
+- Barra de Busca: Um campo para os usuários pesquisarem conteúdo no site.
+- Ícones de Redes Sociais: Links para perfis de redes sociais.
+
+A header navigation ou muitas vezes chamada de top bar, facilita a navegação pelo site, se bem estruturada, contribui para a acessibilidade do site, garantindo que todos os usuários, incluindo aqueles com deficiências, possam navegar facilmente.
+Podem ainda aumentar o engajamento com  bßotões de ação e links importantes no cabeçalho podem direcionar os usuários para páginas de conversão, como páginas de produtos ou formulários de inscrição, aumentando o engajamento e as conversões.
+
+
+#### Exercício
+
+Vamos criar uma header navigation semelhante a da imagem abaixo.
+
+Para criarmos uma hero section primeiramente vamos criar
+uma nova branch a partir da main, chamada hero-section `git checkout -b header-navigation` e em seguida criar
+um novo arquivo `navigation.html` e criar a estrutura básica do arquivo.
+
+
+![resultado](/assets/img/resultado-header.png)
+
+### Código HTML
+
+Seu código provavelmente se parecerá com o código abaixo.
+
+```html
+<header>
+  <h1>Meu Site</h1>
+  <nav>
+    <ul>
+      <li><a href="https://linkedin.com/in/seu-nome-de-usuario">Linkedin</a></li>
+      <li><a href="https://github.com/seu-nome-de-usuario">Github</a></li>
+    </ul>
+  </nav>
+</header>
+```
+
+
+
+
+### Estilos CSS
+
 ---
-As tags de bloco em HTML são elementos que ocupam toda a largura disponível da tela, forçando uma quebra de linha antes e depois do elemento.
-Elas são importantes porque ajudam a estruturar o layout de uma página, organizando o conteúdo de maneira lógica e fácil de ler.
 
-### Importância das Tags de Bloco
+Agora, vamos adicionar os estilos CSS para atingir o layout desejado.
+
+`<header>`
+
+Para estilizar o header e a navegação iremos definir as seguintes propriedades no css da página.
+
+
+**`header`**
+
+- a tag `header` devera organizar seu conteúdo na horizontal e para isso usaremos a propriedade `display` definida como `flex`. Para colocar o titulo em uma ponta e os links na outra, vamos definir a propriedade `justify-content` para `space-between` e o `align-items` definida como `center` e vai centralizar o conteúdo verticalmente ao centro com um espaçamento `padding`de `18px` e o background continua `#333` e a cor do texto definida para branco usando o `color` definido como `#fff`
+
+- a tag `nav` devera organizar seu conteúdo na horizontal e para isso usaremos a propriedade `display` definida como `flex`.
+
+- para a tag `ul` também definiremos o `display` como `flex` o `list-style-type` definido como `none` para remover os estilos de lista.
+
+- para a tag `li` defina um `padding` de `8px`e uma margem direita `margin-right` em `24px`
+
+- a tag `a` terá sua cor definida para branco usando a propriedade `color` como `#fff`. Também removeremos o sublinhado do link com a propriedade `text-decoration` como `none`
+
+### Explicação dos Estilos
+
 ---
 
-### Estrutura e Layout
+- **`header`**
 
-As tags de bloco ajudam a criar a estrutura e o layout da página, organizando o
-conteúdo em seções lógicas e coerentes.
-Isso facilita a navegação e melhora a experiência do usuário.
+  - `color: #fff;`: define a cor do texto para branco
+  - `padding: 18px;`: Adiciona um padding de 18 pixels ao redor do conteúdo do header.
+  - `background-color: #333;`: Define a cor de fundo do header como cinza escuro (#333).
 
-### Acessibilidade
-Tags de bloco com significado semântico (como `<header>`, `<nav>`, `<main>`, etc.)
-ajudam os leitores de tela e outros dispositivos de assistência a compreender a estrutura
-do conteúdo, melhorando a acessibilidade.
+- **`nav`**
 
-### SEO (Search Engine Optimization)
-Motores de busca usam a estrutura HTML para entender a hierarquia e a relevância do conteúdo.
-Tags de bloco semânticas ajudam a melhorar a indexação e o ranking da página nos resultados de busca.
+  - `display: flex;`: Usa o Flexbox para organizar os elementos filhos.
+  - `justify-content: space-between;`: Distribui os elementos filhos (h1 e ul) com o máximo de espaço possível entre eles.
+  - `align-items: center;`: Alinha os elementos filhos verticalmente ao centro.
 
-### Manutenção do Código
-Uma estrutura HTML bem organizada facilita a manutenção e atualização do código,
-tornando-o mais legível e compreensível para os desenvolvedores.
+- **`ul`**
 
-Abaixo veremos uma lista com algumas tags de bloco disponíveis no [HTML 5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+  - `display: flex;`: Exibe os itens da lista na horizontal.
+  - `list-style-type: none;`: Remove os marcadores de lista padrão.
+  - `padding: 0;`: Remove o padding padrão da lista.
+  - `margin: 0;`: Remove a margem padrão da lista.
 
-### Lista de tags de bloco
----
+- **`li`**
 
-- [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
-  Contêiner genérico para agrupar outros elementos.
-  Não tem significado semântico próprio.
+  - `margin-left: 24px;`: Adiciona um espaço de 20 pixels à esquerda de cada item da lista, exceto o primeiro item.
 
-- [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-  Define um parágrafo.
-  Utilizada para texto de forma geral.
+- **`a`**
+  - `color: white;`: Define a cor do texto dos links como branco.
+  - `text-decoration: none;`: Remove o sublinhado dos links.
 
-- [`<h1>` a `<h6>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
-  Definem cabeçalhos, do nível 1 (mais importante) ao nível 6 (menos importante).
-  São utilizados para títulos e subtítulos.
-
-- [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-  Define uma lista não ordenada (com marcadores).
-  Cada item da lista é um `<li>`.
-
-- [`<ol>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-  Define uma lista ordenada (numerada).
-  Cada item da lista é um `<li>`.
-
-- [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-  Define um item em uma lista (`<ul>` ou `<ol>`).
-
-- [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
-  Define um cabeçalho para um documento ou uma seção.
-  Pode conter elementos como logotipo, título, menu de navegação, etc.
-
-- [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-  Define um rodapé para um documento ou uma seção.
-  Pode conter informações de copyright, links de rodapé, etc.
-
-- [`<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
-  Define uma seção de um documento.
-  Usada para agrupar conteúdo tematicamente relacionado.
-
-- [`<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
-  Define um conteúdo independente e auto-contido.
-  Pode ser usado para artigos de blog, posts de fórum, etc.
-
-- [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
-  Define uma seção que contém links de navegação.
-  Utilizado para menus de navegação.
-
-- [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
-  Define conteúdo adicional ou complementar.
-  Muitas vezes usado para barras laterais.
-
-- [`<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
-  Define o conteúdo principal do documento.
-  Deve conter o conteúdo mais importante e único da página.
-
-
-  
-> A última versão do HTML é o HTML5. HTML5 foi lançado oficialmente em outubro de 2014 e é a versão mais recente e amplamente adotada do HTML. Ele introduziu várias novas funcionalidades, elementos e APIs que não estavam presentes nas versões anteriores do HTML.
-
-*HTML5* continua a evoluir, com novos recursos e melhorias sendo adicionados regularmente pelas comunidades e organizações envolvidas no desenvolvimento e padronização do HTML, como o W3C (World Wide Web Consortium).
-
+> Ao final não esqueça de comitar seu código na branch criada.
