@@ -4,33 +4,39 @@ refactor: true
 title: "Treinamento Básico de Frontend"
 ---
 
-{% include lang.html %}
-
-{% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
-{% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
-{% assign sorted_posts = site.posts | sort: 'priority' %}
-
+{% include lang.html %} {% assign df_strftime_m =
+site.data.locales[lang].df.archives.strftime | default: '/ %m' %} {% assign
+df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %} {%
+assign sorted_posts = site.posts | sort: 'priority' %}
 
 <h2>Treinamento Básico de Frontend</h2>
 
-<p>Crie no seu <a href="https://github.com" target="_blank">github</a> um repositório, recomendamos o nome <code  class="language-plaintext highlighter-rouge">frontend-basic-training</code>.
-  Salve cada exercício com o nome recomendado na descriptor de cada um.
+<p>
+  Iremos salvar todo o código do curso no github. Os passos serão explicados nas
+  próximas aulas.
 </p>
 
 <blockquote class="prompt-danger">
   <p>Não se esqueça de sempre enviar seu código ao github.</p>
-  <p>Em breve falaremos sobre o <a href="https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04">Git Flow</a> que uma abordagem de como usar e padronizar branches manter um melhor controle e entendimento do seu fluxo de mudanças</p>
+  <p>
+    Em breve falaremos sobre o
+    <a
+      href="https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04"
+      >Git Flow</a
+    >
+    que uma abordagem de como usar e padronizar branches manter um melhor
+    controle e entendimento do seu fluxo de mudanças
+  </p>
 </blockquote>
 
-<h2> Lista de aulas e exercícios</h2>
+<h2>Lista de aulas e exercícios</h2>
 
 <article class="px-1">
   <ul class="content ps-0">
     {% for post in sorted_posts %}
-      <li>
-        <a href="/frontend-classes{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
+    <li>
+      <a href="/frontend-classes{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
   </ul>
-
 </article>

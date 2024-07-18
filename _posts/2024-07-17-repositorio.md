@@ -28,13 +28,13 @@ Existem dois tipos principais de repositórios Git:
 
 ## Criando um novo repositório
 
-Para criar um novo repositório no Github, acesse sua conta. Apos o login você será redirecionado para a tela de inicio do Github semelhante à imagem abaixo.
+Para criar um novo repositório no [Github](https://github.com/), acesse sua conta. Apos o login você será redirecionado para a tela de inicio do Github semelhante à imagem abaixo.
 
 ![Dashboard do Githug](/assets/img/github-dashboard.png)
 
 
 Em seguida clique em **New** e você será redirecionado para a tela de criação de repositórios. 
-Um repositório pode ser publico ou privado. Para fins desse treinamento deixaremos o repositório como público. Apenas dê um nome ao seu repositório, deixe todas as configurações padrão e clique em **Create Repository** no final da página.
+Um repositório pode ser publico ou privado. Para fins desse treinamento deixaremos o repositório como público. Apenas mude o **Repository Name** para `frontend-basic-training`, deixe todas as configurações padrão e clique em **Create Repository** no final da página.
 
 ![Tela de criação de repositórios](/assets/img/new-repository.png)
 
@@ -59,9 +59,9 @@ Após criarmos o repositório, devemos clonar o mesmo para o nosso computador. C
 
 
 - clone o repositório criado. 
-  `git clone https://github.com/vagnerleitte/NOME-DO-REPOSITORIO.git`
+  `git clone https://github.com/SEU-NOME-DE-USUARIO/frontend-basic-training.git`
   ![Repositorio clonado](/assets/img/clone.png)
 
 
-Seu repositório está clonado mas não tem nenhum código nele. 
+Seu repositório está clonado, uma pasta com o nome `frontend-basic-training` foi criada dentro da pasta `aulas` que criamos no seu computador mas, não tem nenhum código nele ainda.
 Na próxima aula iremos enviar nosso primeiro código. 
