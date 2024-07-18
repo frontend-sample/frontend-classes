@@ -4,8 +4,9 @@ title: Tags de Bloco
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: vagner
 date: 2019-08-08 11:33:00 +0800
-categories: [Programação, Introduçao, Frontend, HTML, TAGS]
+categories: [Programação, Introdução, Frontend, HTML, TAGS]
 tags: [html]
+priority: 6
 ---
 
 
@@ -77,7 +78,7 @@ Abaixo veremos uma lista com algumas tags de bloco disponíveis no [HTML 5](http
   Usada para agrupar conteúdo tematicamente relacionado.
 
 - [`<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
-  Define um conteúdo independente e auto-contido.
+  Define um conteúdo independente e autocontido.
   Pode ser usado para artigos de blog, posts de fórum, etc.
 
 - [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
