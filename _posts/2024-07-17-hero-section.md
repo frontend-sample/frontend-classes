@@ -60,7 +60,11 @@ um novo arquivo `hero.html` e criar a estrutura básica do arquivo.
     <title>Hero Section</title>
 </head>
 <body>
-    <!-- o conteúdo da hero section vai aqui -->
+    <div class="hero">
+      <h1>Bem-vindo ao Meu Site</h1>
+      <p>Descubra nossos produtos e serviços incríveis.</p>
+      <a href="#saiba-mais">Saiba Mais</a>
+    </div>
 </body>
 </html>
 ```
@@ -68,7 +72,7 @@ um novo arquivo `hero.html` e criar a estrutura básica do arquivo.
 **Passos**
 
 - Para a hero section vamos precisar de um container `div` que vai ter apenas heading de nível 1 `h1` com o conteúdo, "Bem-vindo ao Meu Site", um parágrafo `p` com o seguinte texto. "Descubra nossos produtos e serviços incríveis." e um link `a` apontando para `#saiba-mais` e o seguinte texto "Saiba Mais". 
-- Para a `div#hero` defina o estilo da hero section com uma imagem de fundo, faça o download da imagem a ser usada <a href="{{ site.baseurl }}/assets/img/contact.jpg">aqui</a>, altura total da viewport (100vh), cor do texto branco e centralização do conteúdo usando Flexbox.
+- Para a `div#hero` defina o estilo da hero section com uma imagem de fundo, faça o download da imagem a ser usada <a href="{{ site.baseurl }}/assets/img/contact.jpg" target="_blank">aqui</a>, altura total da viewport (100vh), cor do texto branco e centralização do conteúdo usando Flexbox.
 - O título `<h1>` e o parágrafo `<p>` são estilizados para serem grandes e chamativos e com cor branca.
 - a família de fonte do site deverá ser Arial, sans-serif;
 - o botão deverá ter cor de fundo `#007BFF` e cor de texto branco. quando o mouse estiver sobre o botão o mesmo deverá mudar sua cor de fundo para `#0056b3`
