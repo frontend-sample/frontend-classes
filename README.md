@@ -8,7 +8,7 @@ Projetado para iniciantes, você aprenderá HTML, CSS e JavaScript, construindo 
 Inicie sua jornada tecnológica e transforme suas ideias em realidade digital.
 
 
-[Encontre as aulas aqui](https://frontend-sample.github.io/frontend-classes/)
+[Acesse https://frontend-sample.github.io/frontend-classes/](https://frontend-sample.github.io/frontend-classes/)
 
 
 ## Entre em contato
