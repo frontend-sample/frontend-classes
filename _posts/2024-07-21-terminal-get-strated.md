@@ -38,13 +38,13 @@ username@hostname ~ %
   ```sh
   pwd
   ```
- **Resultado experado**
+ **Resultado esperado**
 
   ```sh
-    hostaname@user vaner in ~/landing 
+    hostname@username in ~/landing 
     ➜  pwd
-    /Users/vagner/landing
-    vagner in ~/landing 
+    /Users/username/landing
+    username in ~/landing 
     ➜  
   ```
  
@@ -54,13 +54,13 @@ username@hostname ~ %
   ```sh
   ls
   ```
- **Resultado experado**
+ **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     assets     index.html
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
 
@@ -69,11 +69,11 @@ username@hostname ~ %
   ```sh
   cd NomeDaPasta
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
     ➜  cd assets 
-    hostaname@user in ~/landing/assets 
+    hostname@username in ~/landing/assets 
     ➜  
   ```
 
@@ -81,11 +81,11 @@ username@hostname ~ %
   ```sh
   cd ..
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
     ➜  cd .. 
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
 
@@ -95,15 +95,15 @@ username@hostname ~ %
   ```sh
   mkdir NomeDaNovaPasta
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  mkdir novaPasta       
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     assets     index.html novaPasta
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
 
   ```
@@ -113,14 +113,14 @@ username@hostname ~ %
   ```sh
   touch nome_do_arquivo.txt
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     assets              nome_do_arquivo.txt
     index.html          novaPasta
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
     > usei o comando `ls` após o `touch` para demonstrar que o arquivo foi criado. 
@@ -130,16 +130,16 @@ username@hostname ~ %
   ```sh
   cp arquivo_origem.txt arquivo_destino.txt
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
     ➜  cp nome_do_arquivo.txt arquivo_destino.txt 
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     arquivo_destino.txt nome_do_arquivo.txt
     assets              novaPasta
     index.html
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
   > usei o comando `ls` após o `cp` para demonstrar que o arquivo foi copiado. 
@@ -148,18 +148,18 @@ username@hostname ~ %
   ```sh
     mv arquivo_origem.txt novo_nome.txt
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  mv arquivo_destino.txt novaPasta         
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls novaPasta
     arquivo_destino.txt
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     assets              index.html          nome_do_arquivo.txt novaPasta
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
   > usei o comando `ls` após o `mv` para demonstrar que o arquivo foi movido. Se você digitar `ls` no diretório landing verá que o arquivo não está mais lá. 
@@ -169,17 +169,17 @@ username@hostname ~ %
   rm arquivo.txt
   rm -r NomeDaPasta
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  rm nome_do_arquivo.txt 
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  rm -r novaPasta       
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  ls
     assets     index.html
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
 
@@ -189,10 +189,10 @@ username@hostname ~ %
   ```sh
     clear
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
-    hostaname@user in ~/landing 
+    hostname@username in ~/landing 
     ➜  
   ```
 
@@ -200,7 +200,7 @@ username@hostname ~ %
   ```sh
   man ls
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
   ```sh
       LS(1)                       General Commands Manual                      LS(1)
@@ -257,9 +257,9 @@ username@hostname ~ %
   ```sh
   open index.html
   ```
-   **Resultado experado**
+   **Resultado esperado**
 
-  ![Screenshot do navagador aberto pelo comando open index.html](/assets/img/open-expected.png)
+  ![Screenshot do navegador aberto pelo comando open index.html](/assets/img/open-expected.png)
 
 #### 7. Editores de Texto no Terminal
 
