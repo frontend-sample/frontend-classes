@@ -55,10 +55,10 @@ title: "Treinamento Básico de Frontend"
 
 <article class="px-1">
   <ul class="content ps-0">
-    {% for post in sorted_posts %}
+    {% for post in sorted_posts %} {% unless post.categories contains "ninja" %}
     <li>
       <a href="/frontend-classes{{ post.url }}">{{ post.title }}</a>
     </li>
-    {% endfor %}
+    {% endunless %} {% endfor %}
   </ul>
 </article>

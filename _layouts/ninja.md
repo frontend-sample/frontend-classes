@@ -5,9 +5,11 @@ categories: ninja
 ---
 
 {% include lang.html %}
-{% assign filtered_posts = site.categories[page.category] %}
-{% assign sorted_posts = filtered_posts | sort: 'priority' %}
+
+<img src="/assets/img/top-banner.jpeg" alt="banner"/>
+
 <h1>Curso: {{ page.title }}</h1>
+<hr/>
 
 <p>
   Bem-vindo ao nosso curso “Frontend, a Barreira Inicial”! Este módulo é o ponto
@@ -37,9 +39,11 @@ categories: ninja
   para construir sites impactantes e profissionais!
 </p>
 
-{{ page.category }}
+<hr/>
+<h2>Lista de aulas</h2>
 <div id="page-category">
   <ul class="content ps-0">
+    {% assign sorted_posts = site.categories[page.category] | sort: 'priority' %}
     {% for post in sorted_posts %}
     <li class="d-flex justify-content-between px-md-3">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -50,3 +54,14 @@ categories: ninja
     {% endfor %}
   </ul>
 </div>
+
+
+<h2>Resumo do Módulo - De Noob a ninja</h2>
+
+<p>Neste módulo, exploramos os fundamentos essenciais de HTML e CSS para ajudá-lo a criar páginas web básicas e estilizadas.
+Você agora possui as habilidades fundamentais para criar e estilizar páginas web com HTML e CSS. Este conhecimento básico é a base para avançar em projetos mais complexos e dinâmicos. Continue praticando e explorando para aperfeiçoar suas habilidades!</p>
+<hr/>
+
+<p>Prepare-se para o próximo módulo, onde aprofundaremos ainda mais suas habilidades e aplicaremos o que você aprendeu em projetos reais. Boa sorte e continue explorando o mundo do desenvolvimento web! 🚀</p>
+
+<a href="/frontend-classes/">voltar</a>
