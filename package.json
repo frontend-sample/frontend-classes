@@ -19,7 +19,9 @@
     "watch:js": "rollup -c --bundleConfigAsCjs -w",
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
-    "test": "npm run lint:scss"
+    "test": "npm run lint:scss",
+    "postinstall": "patch-package --error-on-fail",
+    "test:security": "node --test tools/security.test.cjs"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -41,7 +43,9 @@
     "@types/node": "^24.0.0",
     "concurrently": "^10.0.5",
     "conventional-changelog-conventionalcommits": "^9.1.0",
+    "http-cache-semantics": "4.3.0",
     "husky": "^9.0.11",
+    "patch-package": "^8.0.1",
     "postcss": "^8.4.29",
     "purgecss": "^8.0.0",
     "rollup": "^4.17.2",
@@ -180,5 +184,8 @@
       ],
       "@semantic-release/github"
     ]
+  },
+  "resolutions": {
+    "http-cache-semantics": "4.3.0"
   }
 }
